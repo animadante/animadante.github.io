@@ -1,0 +1,182 @@
+
+body {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.moi {
+	width: 25%;
+	height: auto;
+	border: 4px solid rgb(255, 143, 0);
+	border-radius: 12px;
+}
+
+#bas {
+	display: flex;
+	justify-content: space-around;
+}
+
+.section0 {
+	margin-top: 50px;
+	display: block;
+	margin: auto;
+}
+
+.section0 h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 28px;
+}
+
+.section1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.section1 p {
+	font-size: 22px;
+	font-family: 'Berlin Sans FB';
+	color: black;
+}
+
+
+li {
+	list-style: none;
+}
+
+.section0 {
+}
+
+.concepteur {
+	position: absolute;
+	z-index: -10;
+	right: 6rem;
+}
+.concepteur p {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	font-size: 90px;
+	color: rgb(255, 143, 0);
+	height: 1400px;
+	opacity: 0.4;
+}
+
+@font-face {
+    font-family: 'Neon';
+    src: url('Neon.ttf');
+}
+
+p {
+	font-size: 22px;
+	font-family: 'Berlin Sans FB';
+	color: black;
+}
+
+ul {
+	font-family: 'Berlin Sans FB';
+	font-size: 22px;
+	color: black;
+}
+
+h1 {
+	font-family: 'Neon';
+	font-size: 32px;
+	color: black;
+	border: 4px solid rgb(255, 143, 0);
+}
+
+h2 {
+	font-family: 'Neon';
+	font-size: 30px;
+	color: rgb(255, 143, 0);
+}
+
+
+@media (max-width: 992px) {
+
+	h2 {
+	font-family: 'Neon';
+	font-size: 20px;
+	color: rgb(255, 143, 0);
+	}
+
+	p {
+	font-size: 14px;
+	font-family: 'Berlin Sans FB';
+	color: black;
+	}
+
+	.section1 p {
+	font-size: 14px;
+	font-family: 'Berlin Sans FB';
+	color: black;
+	}
+
+	.moi {
+	width: 100px;
+	height: auto;
+	border: 4px solid rgb(255, 143, 0);
+	border-radius: 12px;
+	}
+
+
+
+
+}
+
+@media (max-width: 767px) {
+
+	.moi {
+	width: 35%;
+	height: auto;
+	border: 4px solid rgb(255, 143, 0);
+	border-radius: 12px;
+	}
+
+	
+}
+
+@media (max-width: 520px) {
+
+	body {
+		padding: 0 20px;
+	}
+
+		h2 {
+	font-family: 'Neon';
+	font-size: 24px;
+	color: rgb(255, 143, 0);
+	}
+
+	p {
+	font-size: 18px;
+	font-family: 'Berlin Sans FB';
+	color: black;
+	}
+
+	.section1 p {
+	font-size: 18px;
+	font-family: 'Berlin Sans FB';
+	color: black;
+	text-align: center;
+	}
+
+	.moi {
+	width: 140px;
+	height: auto;
+	border: 4px solid rgb(255, 143, 0);
+	border-radius: 12px;
+	}
+
+	.section1 {
+		flex-direction: column-reverse;
+	}
+
+	ul {
+	font-family: 'Berlin Sans FB';
+	font-size: 18px;
+	color: black;
+	}
+
+}
